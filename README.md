@@ -1,9 +1,22 @@
 # MongoDemo
 
-1. Run docker compose up
-2. Connect to mongo db with Mongo Compass with this url: **mongodb://test:test@localhost:27017/test_db**
-3. In container terminal run : **mongosh** or **mongosh -u "test" -p "test" --authenticationDatabase "admin"**
-   ![img.png](img.png)
+1. Run 
+
+```docker compose up```
+
+2. Connect to mongo db with Mongo Compass with this url:
+
+```mongodb://test:test@localhost:27017/test_db```
+
+3. In container terminal run :
+  
+```mongosh```
+
+   or
+
+   ```mongosh -u "test" -p "test" --authenticationDatabase "admin"```
+
+![img.png](img.png)
 
 ## Commands for mongo
 
