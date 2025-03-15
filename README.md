@@ -1,5 +1,17 @@
 # MongoDemo
 
+* Mongo compass:
+
+https://www.mongodb.com/products/tools/compass
+
+* Mongo official documentation:
+
+https://www.mongodb.com/docs/
+
+* Mongo tutorial:
+
+https://www.w3schools.com/mongodb/index.php
+
 1. Run 
 
 ```docker compose up```
