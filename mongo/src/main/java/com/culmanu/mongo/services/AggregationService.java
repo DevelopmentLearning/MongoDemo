@@ -37,8 +37,10 @@ public class AggregationService {
     public List<CountrySummary> groupByCountry() {
         Aggregation aggregation = Aggregation.newAggregation(
                 Aggregation.group("address.country")
-                        .avg("balance").as("avgBalance")
-                        .count().as("count"),
+                        .avg("balance")
+                        .as("avgBalance")
+                        .count()
+                        .as("count"),
                 Aggregation.project()
                         .and("_id").as("id") // Map _id to id
                         .andInclude("avgBalance", "count")
